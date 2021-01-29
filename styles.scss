@@ -1,0 +1,42 @@
+.mySlides {
+    display: none;
+}
+
+.slideContainer {
+    max-width: 1000px;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+
+    img {
+        width: 100%;
+
+    }
+    .caption {
+        font-size: 18px;
+        color: #545454;
+        position: absolute;
+      bottom: 30px; text-align: center; width: 100%; font-size: 30px;
+    }
+}
+
+.indicator {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.active {
+    background: #000;
+}
